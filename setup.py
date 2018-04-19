@@ -9,7 +9,7 @@ import textract
 scripts = glob.glob("bin/*")
 
 # read in the description from README
-with open("README.rst") as stream:
+with open("textract/README.rst") as stream:
     long_description = stream.read()
 
 github_url = 'https://github.com/deanmalmgren/textract'
@@ -37,7 +37,7 @@ def parse_requirements(requirements_filename):
     return dependencies, dependency_links
 
 
-requirements_filename = os.path.join("requirements", "python")
+requirements_filename = os.path.join("textract/requirements", "python")
 dependencies, dependency_links = parse_requirements(requirements_filename)
 
 
