@@ -53,8 +53,8 @@ setup(
     license='MIT',
     scripts=scripts,
     packages=[
-        'textract',
-        'textract.parsers',
+        'textract/textract',
+        'textract/textract.parsers',
     ],
     install_requires=dependencies,
     dependency_links=dependency_links,
