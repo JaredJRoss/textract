@@ -9,7 +9,7 @@ import textract
 scripts = glob.glob("bin/*")
 
 # read in the description from README
-with open("textract/README.rst") as stream:
+with open("/root/textract/README.rst") as stream:
     long_description = stream.read()
 
 github_url = 'https://github.com/deanmalmgren/textract'
