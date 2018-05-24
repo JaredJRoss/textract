@@ -37,7 +37,7 @@ def parse_requirements(requirements_filename):
     return dependencies, dependency_links
 
 
-requirements_filename = os.path.join("textract/requirements", "python")
+requirements_filename = os.path.join("/root/textract/requirements", "python")
 dependencies, dependency_links = parse_requirements(requirements_filename)
 
 
